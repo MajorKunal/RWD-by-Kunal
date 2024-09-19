@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px">
+        <thead>
+            <th colspan="2">Student Details</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="fname">First Name :</label></td>
+                <td><input type="text" id="fname" name="fname" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name :</label></td>
+                <td><input type="text" id="lname" name="lname" placeholder="Enter last name"></td>
+            </tr>
+            <tr>
+                <td> <label for="email">Email :</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label><br></td>
+                <td><input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+            
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">female</label>
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">other</label> <br></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number" id="age" name="age" min="7" ></td>
+            </tr>
+            <tr>
+                <td><label for="jdate">Joinning Date</label></td>
+                <td><input type="date" id="jdate" name="jdate"></td>
+            </tr>
+            <tr>
+                <td><label for="Comp">Complete Course :</label></td>
+                <td><input type="checkbox" id="cprog" name="cprog">
+                    <label for="sql">C Programming</label>
+                    <input type="checkbox" id="sql" name="sql">
+                    <label for="sql">SQL</label>
+                    <input type="checkbox" id="mongo" name="mongo">
+                    <label for="mongo">MongoDB</label></td>
+            </tr>
+            <tr>
+                <td><label for="addr">Address :</label></td>
+                <td><textarea name="addr" id="addr"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="branch">branch :</label></td>
+                <td><select name="branch" id="branch">
+                    <option value="Pune">Pune</option>
+                    <option value="Chinchwad">Chinchwad</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" id="Resetbtn" value="Reset" >
+                    <input type="button" id="subbtn" value="submit"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
