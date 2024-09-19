@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    .container{
+        width: 30%;
+        margin: 0 auto;
+        border: 2px solid black;
+        padding: 10px;
+        
+    }
+    #heading {
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <h3 id="heading"> Student Details</h3>
+        <label for="fname">First Name :</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your name" required><br>
+        <label for="lname">Last Name :</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name"><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="other" name="gender">
+        <label for="other">other</label> <br>
+
+        <label for="age">Age</label><br>
+        <input type="number" id="age" name="age" min="7" ><br>
+
+        <label for="jdate">Joinning Date</label><br>
+        <input type="date" id="jdate" name="jdate"><br>
+
+        <label for="Comp">Complete Course :</label><br>
+        <input type="checkbox" id="cprog" name="cprog">
+        <label for="sql">C Programming</label>
+        <input type="checkbox" id="sql" name="sql">
+        <label for="sql">SQL</label>
+        <input type="checkbox" id="mongo" name="mongo">
+        <label for="mongo">MongoDB</label> <br>
+        <label for="addr">Address</label><br>
+        <textarea name="addr" id="addr"></textarea><br>
+
+        <label for="branch">branch :</label>
+        <select name="branch" id="branch">
+            <option value="Pune">Pune</option>
+            <option value="Chinchwad">Chinchwad</option>
+        </select>
+        <br>
+        <input type="button" id="Resetbtn" value="Reset" >
+        <input type="button" id="subbtn" value="submit">
+       
+
+
+
+    </div>
+</body>
+</html>
