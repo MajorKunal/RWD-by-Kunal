@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        background-color:grey;
+        margin: 20px;
+        padding: 20px;
+    }
+    #arial {
+        color: rgb(0, 0, 0);
+        transition: all;
+    }
+    #arial:hover {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #mono {
+        font-family: sans-serif;
+    }
+    #mono:hover {
+        font-family: monospace;
+    }
+    #times {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #times:hover {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #serif {
+        font-family: Arial, Helvetica;
+    }
+    #serif:hover{
+        font-family: serif;
+    }
+    #ver {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #ver:hover{
+        font-family: Verdana;
+    }
+
+    #normal {
+        font-style: normal;
+    }
+    #obq {
+        font-style: normal;
+    }
+    #obq:hover{
+        font-style: oblique;
+    }
+    #itc {
+        font-style: normal;
+    }
+    #itc:hover{
+        font-style: italic;
+    }
+    #normalv {
+        font-variant: normal;
+    }
+    #sml {
+        font-variant: normal;
+    }
+    #sml:hover{
+        font-variant: small-caps;
+    }
+    #small:hover{
+        font-size: small;
+    }
+    #medium:hover{
+        font-size: medium;
+    }
+    #lrg:hover{
+        font-size: large;
+    }
+    #twot:hover{
+        font-size: 22px;
+    }
+    #lighterd:hover{
+        font-weight: lighter
+    }
+    #Boldone:hover{
+        font-weight: bold;
+    }
+    #bolderone:hover{
+        font-weight: bolder;
+    }
+    #sev:hover{
+        font-weight: 700;
+    }
+</style>
+<body>
+    <div class="fontfamily">
+        <h3>Font-Family</h3>
+        
+                <P>Font-Family : <span id="arial">Arial</span></P>
+                <P>Font-family : <span id="mono">Monospace</span></P>
+                <P>Font-family : <span id="times">Times</span></P>
+                <P>Font-family : <span id="serif">serif</span></P>
+                <P>Font-family : <span id="ver">Verdana</span></P>
+    </div>
+
+    <div class="fontstyle">
+        <h3>Font-style</h3>
+        <span class="attri">
+            <P>Font-style : <span id="normal">Normal</span></P>
+            <P>Font-style : <span id="obq">oblique</span></P>
+            <P>Font-style : <span id="itc">Italic</span></P>
+        </span>
+    </div>
+
+    <div class="fontvarient">
+        <h3>Font-varient</h3>
+        <span class="attri">
+            <P>Font-varient : <span id="normalv">Normal</span></P>
+            <P>Font-varient : <span id="sml">small-caps</span></P>
+        </span>
+    </div>
+
+    <div class="fontsize">
+        <h3>Font-size</h3>
+        <span class="attri">
+            <P>Font-size : <span id="small">Small</span></P>
+            <P>Font-size : <span id="medium">Medium</span></P>
+            <P>Font-size : <span id="lrg">Large</span></P>
+            <P>Font-size : <span id="twot">22px</span></P>
+        </span>
+    </div>
+
+    <div class="fontweight">
+        <h3>Font-weight</h3>
+        <span class="attri">
+            <P>Font-weight : <Span id="lighterd">light</Span></P>
+            <P>Font-weight : <Span id="Boldone">Bold</Span></P>
+            <P>Font-weight : <span id="bolderone">Bolder</span></P>
+            <p>font-wight : <span id="sev">700</span></p>
+        </span>
+    </div>
+</body>
+</html>
